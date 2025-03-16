@@ -1,3 +1,10 @@
+*.exe
+*.inc
+*.la
+*.lai
+*.lo
+*.o
+*.pc
 /Makefile
 /autom4te.cache/output.0
 /autom4te.cache/requests
