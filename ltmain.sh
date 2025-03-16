@@ -3116,7 +3116,7 @@ EOF
 		*mingw* )
 		  # awkward: cmd appends spaces to result
 		  lt_sed_strip_trailing_spaces="s/[ ]*\$//"
-		  lt_newargv0=`( cmd //c echo $SHELL | $SED -e "$lt_sed_strip_trailing_spaces" ) 2>/dev/null || echo $SHELL`
+		  lt_newargv0=`( cmd //c echo $SHELL | $SED -e $lt_sed_strip_trailing_spaces ) 2>/dev/null || echo $SHELL`
 		  case $lt_newargv0 in
 		    *.exe | *.EXE) ;;
 		    *) lt_newargv0=$lt_newargv0.exe ;;
