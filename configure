@@ -8668,7 +8668,7 @@ if test -z "$aix_libpath"; then aix_libpath="/usr/lib:/lib"; fi
       # The linker will automatically build a .lib file if we build a DLL.
       old_archive_from_new_cmds='true'
       # FIXME: Should let the user specify the lib program.
-      old_archive_cmds='lib -OUT:$oldlib$oldobjs$old_deplibs'
+      old_archive_cmds='ar rcs $oldlib$oldobjs$old_deplibs'
       fix_srcfile_path='`cygpath -w "$srcfile"`'
       enable_shared_with_static_runtimes=yes
       ;;
@@ -20823,6 +20823,7 @@ _ACEOF
 cat confdefs.h >>conftest.$ac_ext
 cat >>conftest.$ac_ext <<_ACEOF
 /* end confdefs.h.  */
+#include <stdlib.h>
 #include <setjmp.h>
 		     int main () {
 			jmp_buf b; volatile int c = 0;
@@ -20889,6 +20890,7 @@ _ACEOF
 cat confdefs.h >>conftest.$ac_ext
 cat >>conftest.$ac_ext <<_ACEOF
 /* end confdefs.h.  */
+#include <stdlib.h>
 #include <setjmp.h>
 		     int main () {
 			jmp_buf b; volatile int c = 0;
