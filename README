@@ -25,6 +25,10 @@ svn://svn.adaptive-enterprises.com.au/repos/see/
 
 David Leonard, 2004.
 
+Needs `Binutils` to work
+`./configure && make`
+Zamy846692, 2025.
+
 Directory organisation:
   doc/		- Documentation
   libsee/	- Library source
