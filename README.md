@@ -1,8 +1,7 @@
 
-## Welcome to SEE (Simple ECMAScript Engine).
+# Welcome to SEE (Simple ECMAScript Engine).
 
-**SEE is a library that provides an ECMAScript (JavaScript) run-time
-environment.**
+### SEE is a library that provides an ECMAScript (JavaScript) run-time environment.
 
 Running configure and compiling in the normal way should provide
 the library 'libsee.a' and a test application, 'see-shell'.  I
@@ -31,11 +30,11 @@ Needs `Binutils` to work
 Run `./configure && make` in a Bash terminal
 Zamy846692, 2025.
 
-Directory organisation:
-  doc/		- Documentation
-  libsee/	- Library source
-  include/see	- Public header files
-  shell/	- Demo/test program 'see-shell'
-  ssp/          - Demo HTTP server that runs server-side Javascript
+### Directory organisation:
+-  doc/		- Documentation
+-  libsee/	- Library source
+-  include/see	- Public header files
+-  shell/	- Demo/test program 'see-shell'
+-  ssp/          - Demo HTTP server that runs server-side Javascript
 
 
