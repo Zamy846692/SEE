@@ -1,8 +1,8 @@
 
-Welcome to SEE (Simple ECMAScript Engine).
+## Welcome to SEE (Simple ECMAScript Engine).
 
-SEE is a library that provides an ECMAScript (JavaScript) run-time
-environment.
+**SEE is a library that provides an ECMAScript (JavaScript) run-time
+environment.**
 
 Running configure and compiling in the normal way should provide
 the library 'libsee.a' and a test application, 'see-shell'.  I
@@ -24,6 +24,12 @@ The subversion repository for SEE is available at
 svn://svn.adaptive-enterprises.com.au/repos/see/
 
 David Leonard, 2004.
+
+From: https://adaptive-enterprises.com/~d/software/see/
+
+Needs `Binutils` to work
+Run `./configure && make` in a Bash terminal
+Zamy846692, 2025.
 
 Directory organisation:
   doc/		- Documentation
