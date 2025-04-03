@@ -22,13 +22,15 @@ at <http://freshmeat.net/projects/see/> and made available at
 The subversion repository for SEE is available at 
 svn://svn.adaptive-enterprises.com.au/repos/see/
 
-David Leonard, 2004.
+*David Leonard, 2004.*
 
 From: https://adaptive-enterprises.com/~d/software/see/
 
 Needs `Binutils` to work
+
 Run `./configure && make` in a Bash terminal
-Zamy846692, 2025.
+
+*Zamy846692, 2025.*
 
 ### Directory organisation:
 -  doc/		- Documentation
