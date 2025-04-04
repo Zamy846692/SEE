@@ -4,14 +4,14 @@
 ### SEE is a library that provides an ECMAScript (JavaScript) run-time environment.
 
 Running configure and compiling in the normal way should provide
-the library 'libsee.a' and a test application, 'see-shell'.  I
+the library `libsee.lib` and a test application, `see-shell`.  I
 strongly recommend that you have Boehm-gc installed (it's a garbage
 collector library) otherwise see-shell just uses the non-free'ing
-malloc().  Run configure with the '--help' argument to see switches
+malloc().  Run configure with the `--help` argument to see switches
 on how to configure it for boehm-gc.
 
 Documentation for development using the SEE library can be found in
-doc/USAGE.html.  The 'see-shell' program doubles as an example and
+doc/USAGE.html.  The `see-shell` program doubles as an example and
 demonstration of how the library is intended to be used.
 
 I hope you find this library useful. Please send bug reports back to me
@@ -36,7 +36,7 @@ Run `./configure && make` in a Bash terminal
 -  doc/		- Documentation
 -  libsee/	- Library source
 -  include/see	- Public header files
--  shell/	- Demo/test program 'see-shell'
+-  shell/	- Demo/test program `see-shell`
 -  ssp/          - Demo HTTP server that runs server-side Javascript
 
 
