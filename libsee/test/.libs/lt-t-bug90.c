@@ -237,7 +237,7 @@ static const char *script_text =
   "\n"
   "  if test -f \"$progdir/$program\"; then\n"
   "    # Add the dll search path components to the executable PATH\n"
-  "    PATH=:/home/billa/SEE/libsee:$PATH\n"
+  "    PATH=:/home/billa/SEE-mirror/libsee:$PATH\n"
   "\n"
   "    if test \"$libtool_execute_magic\" != \"%%%MAGIC variable%%%\"; then\n"
   "      # Run the actual program with our arguments.\n"

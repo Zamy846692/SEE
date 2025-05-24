@@ -103,7 +103,7 @@ else
 
   if test -f "$progdir/$program"; then
     # Add the dll search path components to the executable PATH
-    PATH=:/home/billa/SEE/libsee:$PATH
+    PATH=:/home/billa/SEE-mirror/libsee:$PATH
 
     if test "$libtool_execute_magic" != "%%%MAGIC variable%%%"; then
       # Run the actual program with our arguments.
